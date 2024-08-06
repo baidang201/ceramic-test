@@ -1,0 +1,31 @@
+{
+  "name": "ceramic-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "packageManager": "yarn@4.4.0",
+  "type": "module",
+  "dependencies": {
+    "@apollo/client": "^3.11.2",
+    "@ceramicnetwork/cli": "^6.2.0",
+    "@composedb/cli": "^0.7.1",
+    "@composedb/client": "^0.7.1",
+    "dids": "^5.0.2",
+    "graphql": "^16.9.0",
+    "key-did-provider-ed25519": "^4.0.2",
+    "key-did-resolver": "^4.0.0",
+    "least-recent": "^1.0.3",
+    "ts-node": "^10.9.2",
+    "uint8arrays": "^5.1.0"
+  },
+  "devDependencies": {
+    "@composedb/devtools": "^0.7.1",
+    "@composedb/devtools-node": "^0.7.1",
+    "@composedb/types": "^0.7.1"
+  }
+}
